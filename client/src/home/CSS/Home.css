@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    /* box-sizing: border-box; */
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.containerGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px; 
+    padding: 16px;
+}
+.box{
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
